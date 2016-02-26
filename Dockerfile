@@ -21,7 +21,6 @@ USER root
 RUN yum -y install wget
 
 WORKDIR /tmp/
-
 RUN cd /tmp/
 
 RUN wget http://mirrors.ibiblio.org/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz 
